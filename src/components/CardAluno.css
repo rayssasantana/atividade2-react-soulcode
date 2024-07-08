@@ -1,4 +1,24 @@
-article {
+.card-aluno {
+    background-color: whitesmoke;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 300px;
+    margin: 8px auto;
+  }
+  
+  .aprovado {
+    color: green;
+  }
+  
+  .reprovado {
+    color: red;
+  }
+
+
+
+
+/* .cardAluno-caixa {
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -15,6 +35,7 @@ article {
     font-size: 20px;
     font-weight: 900;
     margin-bottom: 10px;
+    color: white;
 }
 
 
@@ -32,4 +53,4 @@ article {
     margin-top: 5px;
     border-radius: 5px;
     color: red;
-}
+} */
