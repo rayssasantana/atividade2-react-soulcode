@@ -1,0 +1,30 @@
+.post-caixa {
+    background-color: rgb(230, 196, 255);
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 250px;
+    height: 240px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px
+}
+
+.post-caixa h2 {
+    text-align: center;
+}
+
+.post-caixa p {
+    width: 100px;
+}
+
+.post-caixa button {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    color: red;
+    height: 20px;
+}
